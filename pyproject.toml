@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.2.0",
+    "huggingface>=0.0.1",
+    "matplotlib>=3.9.3",
+    "protobuf>=5.29.1",
+    "seaborn>=0.13.2",
+    "sentencepiece>=0.2.0",
     "torch>=2.5.1",
     "transformers>=4.47.0",
 ]
